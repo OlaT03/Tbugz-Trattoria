@@ -1,0 +1,193 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(Assets/group.jpg); /* Add your image path here */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Change text color to white */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333; /* Navbar brand color */
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-right: 20px;
+    color: #333; /* Navbar link color */
+}
+
+.navbar-toggler-icon {
+    border: none;
+}
+
+/* Home Section Styles */
+.home {
+    background-color: rgba(0, 0, 0, 0.5); /* Add background color with opacity */
+    padding: 100px 0;
+    text-align: center;
+}
+
+.home h1,
+.home p {
+    color: #fff; /* Home section text color */
+}
+
+.special-offers h2,
+.featured-dishes h2,
+.customer-testimonials h2 {
+    color: #333; /* Section title color */
+}
+
+.special-offers p,
+.featured-dishes p,
+.customer-testimonials p {
+    color: #555; /* Section content text color */
+}
+
+/* Section Title Styles */
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Section Content Styles */
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Contact Form Styles */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #fff; /* Form text color */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+        margin-right: 10px;
+    }
+
+    .home {
+        padding: 80px 0;
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Custom CSS for text color */
+body, h1, h2, h3, p, a {
+    color: white; /* Change text color to white */
+}
+
+.special-offers p,
+.featured-dishes p,
+.customer-testimonials p {
+    color: #fff; /* Change text color to white */
+}
+
+.btn-primary {
+    background-color: #ff0000; /* Change this to your desired color */
+    border-color: #ff0000; /* Change this to match the background color */
+}
+
+.btn-primary:hover {
+    background-color: #cc0000; /* Change this to a slightly different shade for hover effect */
+    border-color: #cc0000; /* Change this to match the background color */
+}
+
+/* Define a CSS animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Apply the animation to elements */
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.navbar-brand img {
+    width: 1500px;  /* Adjust the width as needed */
+    height: auto; /* Keep the aspect ratio */
+}

@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tbugz Trattoria</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap">
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Include Animate.css library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+
+    <style>
+        /* Custom CSS for changing heading colors */
+        .special-offers h2,
+        .featured-dishes h2,
+        .customer-testimonials h2 {
+            color: white;
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px; 
+            height: 200px; 
+            object-fit: cover; 
+        }
+
+        /* Background colors for sections */
+        .about {
+            background-color: #D62828; 
+        }
+
+        .menu {
+            background-color: #FFA500;
+        }
+
+        .reservation {
+            background-color: #483C32;
+        }
+
+        .blog {
+            background-color: #556B2F;
+        }
+
+        .team {
+            background-color: #adb5bd; /* Medium gray with slight bluish tone */
+        }
+
+        .map {
+            background-color: #868e96; /* Dark gray with hint of blue */
+        }
+
+        .contact {
+            background-color: #495057; /* Dark gray */
+            color: white; /* Text color */
+        }
+
+        /* CSS for resizing the logo in the navbar */
+        .navbar-brand img {
+            width: 150px;  /* Adjust the width as needed */
+            height: auto;  /* Keep the aspect ratio */
+        }
+
+        /* CSS to make the navbar background transparent */
+        .navbar {
+            background-color: transparent !important;
+        }
+
+        /* Additional styling for the transparent navbar */
+        .navbar-nav .nav-link {
+            color: white; /* Change the text color as needed */
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="Assets/logo.png" alt="Tbugz Trattoria"> <!-- Add the logo image here -->
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reservation">Reservation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<section id="home" class="home">
+    <div class="container">
+        <h1>Welcome to Tbugz Trattoria</h1>
+        <p>Indulge in the true essence of Africa with our tantalizing culinary delights!</p>
+        <div class="special-offers">
+            <h2>Special Offers</h2>
+            <p>Check out our special offers for this week!</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>50% off on Traditional African Buffet</h3>
+                    <p>Experience a feast of flavors with our traditional African buffet, now at half price! Available every Wednesday from 6:00 PM to 9:00 PM. Don't miss out on this amazing offer!</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Family Meal Deal</h3>
+                    <p>Bring the whole family and enjoy our Family Meal Deal, featuring a variety of African-inspired dishes to satisfy everyone's cravings. Available for dine-in or takeout every weekend. Order now!</p>
+                </div>
+            </div>
+          
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="Assets/african buffet.jpg" alt="Special Offer 1" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <img src="Assets/family meal deal.jpg" alt="Special Offer 2" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="featured-dishes">
+            <h2>Featured Dishes</h2>
+            <p>Discover our chef's recommendations!</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Suya Platter</h3>
+                    <p>Experience the bold and savory flavors of our signature suya platter, featuring tender grilled meat skewers seasoned with authentic African spices. Served with your choice of side.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Jollof Rice Feast</h3>
+                    <p>Indulge in a delicious feast of jollof rice, a classic African dish cooked to perfection with tomatoes, peppers, and aromatic spices. Served with your choice of protein.</p>
+                </div>
+            </div>
+            <!-- Add featured dishes content here -->
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="Assets/suya platter.jpg" alt="Featured Dish 1" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <img src="Assets/Jollof rice.jpg" alt="Featured Dish 2" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about"> 
+    <div class="container">
+        <h2>About Us</h2>
+        <p>We are a family-owned restaurant specializing in authentic African cuisine, nestled in the heart of the bustling city. With over two decades of serving the community, we bring the rich and diverse flavors of Africa to your table.</p>
+        <p>At our establishment, we prioritize the use of fresh, locally-sourced ingredients to craft our dishes. Our culinary team is deeply passionate about preserving the authenticity of traditional African recipes, while also infusing creativity to provide a unique dining experience.</p>
+        <p>Whether you're yearning for savory stews, flavorful grilled meats, or delectable vegetarian options, our menu offers a tantalizing array of choices to satisfy every palate. Join us on a culinary journey through the vibrant and vibrant flavors of Africa.</p>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="Assets/Restaurant interior.jpg" alt="Restaurant Interior" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <img src="Assets/signature dish.jpg" alt="Signature Dish" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="menu" class="menu">
+    <div class="container">
+        <h2>Our Menu</h2>
+        <p>Embark on a culinary adventure with our diverse selection of authentic African meals served throughout the day. From hearty breakfasts to satisfying lunches and flavorful dinners, our menu celebrates the rich gastronomic heritage of Africa.</p>
+        <p>Join us during our operating hours to indulge in traditional breakfast dishes like akara and pap, savor vibrant lunchtime fare such as jollof rice and grilled plantains, or relish the flavors of aromatic stews and grilled meats for dinner. At our restaurant, the essence of Africa is on your plate, all day long.</p>
+        <p>Operating Hours:</p>
+        <ul>
+            <li>Breakfast: 7:00 AM - 11:00 AM</li>
+            <li>Lunch: 12:00 PM - 3:00 PM</li>
+            <li>Dinner: 5:00 PM - 10:00 PM</li>
+        </ul>
+
+        <div class="row">
+            <div class="col-md-4">
+                <img src="Assets/breakfast.jpg" alt="Breakfast" class="img-fluid">
+                <h3>Breakfast</h3>
+                <p>African breakfasts are a flavorful and diverse array of dishes that reflect the continent's rich culinary heritage. From savory to sweet, breakfast in Africa encompasses a wide range of flavors, ingredients, and cooking techniques</p>
+                <input type="checkbox" id="breakfast" name="breakfast" value="breakfast">
+                <label for="breakfast">Select</label>
+            </div>
+            <div class="col-md-4">
+                <img src="Assets/lunch.jpg" alt="Lunch" class="img-fluid">
+                <h3>Lunch</h3>
+                <p>African lunch embodies a fusion of traditional recipes and modern influences. Each dish tells a story of heritage and tradition, inviting diners on a flavorful journey through Africa's diverse culinary landscape</p>
+                <input type="checkbox" id="lunch" name="lunch" value="lunch">
+                <label for="lunch">Select</label>
+            </div>
+            <div class="col-md-4">
+                <img src="Assets/dinner.jpg" alt="Dinner" class="img-fluid">
+                <h3>Dinner</h3>
+                <p>African dinners offer a journey through centuries-old traditions and vibrant cultural influences. With dishes like Jollof rice, tagines, injera, and more, each meal is a celebration of community, family, and the vibrant spirit of Africa</p>
+                <input type="checkbox" id="dinner" name="dinner" value="dinner">
+                <label for="dinner">Select</label>
+            </div>
+        </div>
+        <!-- Add more rows and columns as needed for more dishes -->
+        
+        <!-- Order button -->
+        <button id="orderButton" class="btn btn-primary">Place Order</button>
+    </div>
+</section>
+
+
+
+
+<section id="reservation" class="reservation">
+    <div class="container">
+        <h2>Reservation</h2>
+        <p>Make a reservation to secure your table and enjoy an unforgettable culinary journey with us. Whether you're planning a romantic dinner for two or a celebration with friends and family, we look forward to welcoming you to Tbugz Trattoria.</p>
+        <p>To make a reservation, please call us at (+44) 7493 92671 or use the online booking form below.</p>
+        <form id="bookingForm" action="#" method="POST">
+            <div class="form-group">
+                <label for="fullName">Full Name:</label>
+                <input type="text" class="form-control" id="fullName" name="fullName" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" class="form-control" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="date" class="form-control" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Time:</label>
+                <input type="time" class="form-control" id="time" name="time" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</section>
+
+<section id="blog" class="blog">
+    <div class="container">
+        <h2>Blog</h2>
+        <p>Stay updated with the latest news, events, and culinary insights from Tbugz Trattoria. Our blog offers a unique glimpse into the vibrant world of African cuisine, providing behind-the-scenes stories, cooking tips, and recipes that celebrate the rich flavors and cultural heritage of Africa.</p>
+        <p>Explore our articles for a deeper understanding of the ingredients, techniques, and traditions that shape our menu. From the history of iconic African dishes to step-by-step guides on recreating them in your own kitchen, there's always something new to discover and savor.</p>
+        <p>We value your feedback and suggestions! If there's a specific topic you'd like us to cover or a recipe you'd love to learn, let us know. Our blog is a platform for sharing our passion for food with our valued customers, and we're always eager to hear from you.</p>
+        <p>Join us on this culinary journey as we explore the diverse and delicious world of African cuisine together!</p>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="Assets/blog 1.jpg" alt="Blog Post 1" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <img src="Assets/blog 2.jpg" alt="Blog Post 2" class="img-fluid">
+            </div>
+        </div>
+
+      <!-- In the Customer Testimonials section -->
+<section id="testimonials" class="testimonials">
+    <div class="container">
+        <h2>Customer Testimonials</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="testimonial">
+                    <blockquote>
+                        "I've never tasted such authentic African flavors before! Tbugz Trattoria truly brings the essence of Africa to the table. The ambiance, the service, and most importantly, the food, exceeded my expectations. Highly recommended!"
+                    </blockquote>
+                    <cite>- John Doe</cite>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="testimonial">
+                    <blockquote>
+                        "A culinary journey like no other! Tbugz Trattoria is a gem in the city. From the moment you step in, you're greeted with warmth and hospitality. And the food? Absolutely divine. Each dish tells a story of tradition and passion. Can't wait to come back!"
+                    </blockquote>
+                    <cite>- Jane Smith</cite>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="testimonial">
+                    <blockquote>
+                        "Tbugz Trattoria has become my go-to place for authentic African cuisine. As someone who grew up with these flavors, I can attest to the quality and taste of their dishes. The suya is a must-try! Kudos to the chefs for keeping the tradition alive."
+                    </blockquote>
+                    <cite>- Chika Okonkwo</cite>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="testimonial">
+                    <blockquote>
+                        "An oasis of African flavors in the heart of the city! Tbugz Trattoria never fails to impress. From the moment you enter, you're greeted with the aroma of spices and the warmth of African hospitality. The jollof rice here is second to none. Highly recommended!"
+                    </blockquote>
+                    <cite>- Olamide Adeyemi</cite>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="testimonial">
+                    <blockquote>
+                        "I stumbled upon Tbugz Trattoria by chance and what a delightful surprise it was! Being away from home, the flavors here brought back nostalgic memories of family gatherings and celebrations. The staff here is friendly and attentive, making the dining experience even more enjoyable. Will definitely be back for more!"
+                    </blockquote>
+                    <cite>- Kwame Nkrumah</cite>
+                </div>
+            </div>
+            <!-- Add more testimonials as needed -->
+        </div>
+    </div>
+</section>
+
+
+
+<section id="team" class="team">
+    <div class="container">
+        <h2>Our Team</h2>
+        <p>Meet our team of passionate chefs and friendly staff dedicated to providing you with an exceptional dining experience. Led by our head chef, Ifeanyi Okonkwo, our kitchen team combines traditional African cooking methods with contemporary culinary innovations to craft memorable dishes that reflect the rich diversity of African cuisine.</p>
+        <p>Our front-of-house team, under the leadership of Adaeze Nwosu, is committed to ensuring that your visit to Tbugz Trattoria is nothing short of perfect. From the moment you step through our doors, you'll be greeted with warm hospitality and attentive service, embodying the spirit of African hospitality.</p>
+
+        <!-- Add images of team members here -->
+        <div class="row">
+            <div class="col-md-4">
+                <img src="Assets/head chef.jpg" alt="Chef Ifeanyi Okonkwo" class="img-fluid">
+                <h3>Chef Ifeanyi Okonkwo</h3>
+                <p>Head Chef</p>
+            </div>
+            <div class="col-md-4">
+                <img src="Assets/manager.jpg" alt="Manager Adaeze Nwosu" class="img-fluid">
+                <h3>Manager Adaeze Nwosu</h3>
+                <p>Front-of-House Manager</p>
+            </div>
+            <!-- Add more team members as needed -->
+        </div>
+    </div>
+</section>
+
+<!-- Map Section -->
+<section id="map" class="map">
+    <div class="container-fluid p-0">
+        <!-- Google Map Embed -->
+        <!-- Embed Google Map with restaurant's location -->
+    </div>
+</section>
+
+<section id="map" class="map">
+    <div class="container">
+        <h2>Find Us</h2>
+        <p>We are located at 106 Portland St, Manchester M1 4RJ. Visit us and enjoy a memorable dining experience!</p>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2371.6375181777057!2d-2.239385384037996!3d53.47733298001067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1b6b6aa1d3f%3A0x25e94fdd0ef8054a!2s106%20Portland%20St%2C%20Manchester%20M1%204RJ%2C%20UK!5e0!3m2!1sen!2sus!4v1625045822458!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <!-- Contact section content -->
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Have a question, comment, or feedback? We'd love to hear from you! Get in touch with us using the contact information below, or fill out the form to send us a message directly. Our team is here to assist you and ensure that your experience at Tbugz Trattoria is nothing short of exceptional.</p>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Location</h3>
+                <p>106 Portland St, Manchester M1 4RJ</p>
+                <h3>Email</h3>
+                <p>info@tbugztrattoria.com</p>
+            </div>
+            <div class="col-md-6">
+                <h3>Phone</h3>
+                <p>+123 456 7890</p>
+                <h3>Follow Us</h3>
+                <p>Stay connected with us on social media for the latest updates, promotions, and behind-the-scenes glimpses into the world of African cuisine!</p>
+            </div>
+        </div>
+        <!-- Contact form -->
+        <form id="contactForm" action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <!-- Footer content -->
+    <div class="container">
+        <p>&copy; 2024 Tbugz Trattoria. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Font Awesome JS -->
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<!-- Custom JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
